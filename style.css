@@ -61,4 +61,16 @@ h1, h2 {
 }
 h1 {
     font-size: 3em;
+    letter-spacing: 10px;
+}
+h2 {
+    letter-spacing: 5px;
+}
+.hidden {
+    display: none;
+}
+#rare-item {
+    position: absolute; /* absolute = can be placed anywhere on page */
+    left: 40%;
+    top: 130%;
 }
