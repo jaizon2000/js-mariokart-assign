@@ -71,6 +71,6 @@ h2 {
 }
 #rare-item {
     position: absolute; /* absolute = can be placed anywhere on page */
-    left: 40%;
-    top: 130%;
+    left: 40px;
+    top: 130px;
 }
