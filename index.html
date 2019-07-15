@@ -4,32 +4,34 @@
 <head>
     <title>Mario Kart</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Mario Kart</h1>
-    <hr width='70%'>
-    <h2>Choose a Position/Kart: </h2>
+    <main id="main">
+        <h1>Mario Kart</h1>
+        <hr>
+        <h2>Choose a Position/Kart: </h2>
 
-    <!-- INPUT -->
-    <p><input id="num" type="number" ></p>
+        <!-- INPUT -->
+        <p><input id="num" type="number" max="12" min="1"></p>
 
-    <div id="karts">
+        <div id="karts">
+            <!-- 
+        KARTS - Added by for loop in main.js
         <div id='kart1'><img src="images/kart1.png"><br>1</div>
         <div id='kart2'><img src="images/kart2.png"><br>2</div>
-        <div id='kart3'><img src="images/kart3.png"><br>3</div>
-        <div id='kart4'><img src="images/kart4.png"><br>4</div>
-        <div id='kart5'><img src="images/kart5.png"><br>5</div>
-        <div id='kart6'><img src="images/kart6.png"><br>6</div>
-        <div id='kart7'><img src="images/kart7.png"><br>7</div>
-        <div id='kart8'><img src="images/kart8.png"><br>8</div>
-        <div id='kart9'><img src="images/kart9.png"><br>9</div>
-        <div id='kart10'><img src="images/kart10.png"><br>10</div>
-        <div id='kart11'><img src="images/kart11.png"><br>11</div>
-        <div id='kart12'><img src="images/kart12.png"><br>12</div>
-    </div>
-<hr width="70%">
-    <p><img src="images/cube.png" id="item-btn"></p>
+        ... 
+        -->
+        </div>
+        <hr>
+
+        <p><img src="images/cube.png" id="item-btn" width="90px"></p>
+        <p><button id="reset-btn">Reset</button></p>
+        <div id="result">
+            <!-- ADD Images with JS -->
+        </div>
+    </main>
 
 
 
