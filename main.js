@@ -6,18 +6,19 @@
 document.getElementById('item-btn').addEventListener('click', getItem);
 document.getElementById('reset-btn').addEventListener('click', reset);
 
+
 // GLOBAL VARS
 let kart = 1
 
+
 // Make table of karts
-for (let num = 1; num < 4 + 1; num++) {
+for (let kart_num = 1; kart_num < 4 + 1; kart_num++) {
     for (let col = 1; col < 3 + 1; col++) {
         document.getElementById('karts').innerHTML += "<div class='hover-kart' id='kart" + kart + "'><img src='images/kart" + kart++ + ".png'><br>" + (kart - 1) + "</div>";
     }
 }
 
-
-// Event Function
+// Function
 function getItem() {
 
     // CHECK
@@ -29,8 +30,7 @@ function getItem() {
     console.log(rand);
 
     let result = document.getElementById('result');
-
-
+    // POSITION PROBABILITY
     if (pos >= 1 && pos <= 6) { // Position 1-6
         console.log('positons1-6');
 
